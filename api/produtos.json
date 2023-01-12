@@ -1,0 +1,9 @@
+{
+  "produtos": [
+    {
+      "nome": "TV 32 polegadas",
+      "valor": 2600,
+      "id": 1
+    }
+  ]
+}
