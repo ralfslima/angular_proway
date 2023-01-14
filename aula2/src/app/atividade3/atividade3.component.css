@@ -1,0 +1,9 @@
+form, h1{
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+input, select{
+    margin-top: 10px;;
+}

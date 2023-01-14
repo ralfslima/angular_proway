@@ -1,0 +1,14 @@
+<form>
+    <input type="number" name="valor" [(ngModel)]="valor" class="form-control">
+
+    <select name="moeda" [(ngModel)]="moeda">
+        <option>Dólar</option>
+        <option>Euro</option>
+        <option>Libra</option>
+        <option>Peso argentino</option>
+    </select>
+
+    <input type="button" value="Calcular" (click)="calculo()">
+</form>
+
+<h1>{{total}}</h1>

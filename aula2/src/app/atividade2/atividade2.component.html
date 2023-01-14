@@ -1,0 +1,7 @@
+<form>
+    <input type="number" name="numero" [(ngModel)]="numero" class="form-control" (change)="gerarTabuada()"> 
+</form>
+
+<ul>
+    <li *ngFor="let t of tabuada">{{t}}</li>
+</ul>

@@ -1,0 +1,12 @@
+<form>
+    <input type="number" name="valor" [(ngModel)]="valor" class="form-control">
+    
+    <select name="pagamento" [(ngModel)]="pagamento" class="form-control">
+        <option>A vista</option>
+        <option>A prazo</option>
+    </select>
+
+    <input type="button" value="Enviar" class="btn btn-primary" (click)="calcular()">
+</form>
+
+<h1>{{total}}</h1>
